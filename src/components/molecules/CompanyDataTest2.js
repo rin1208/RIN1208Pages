@@ -5,10 +5,11 @@ import Grid from "@material-ui/core/Grid";
 
 import styled from "@emotion/styled";
 
-const Hoge = styled.div({
-  display: "flex",
-  margin: 20,
-});
+const Hoge = styled.div`
+  display: "flex";
+  margin: 20;
+  background-color: #f5f5f5;
+`;
 
 function CompanyDataTest() {
   var data = [

@@ -1,6 +1,6 @@
 import React from "react";
 
-import CompanyDataTest2 from "./molecules/CompanyDataTest2";
+import Profile from "./molecules/Profile";
 import styled from "@emotion/styled";
 import { AppBar, Toolbar, Typography, TextField } from "@material-ui/core";
 
@@ -20,7 +20,7 @@ function App() {
         </Toolbar>
       </AppBar>
 
-      <CompanyDataTest2 />
+      <Profile />
     </React.Fragment>
   );
 }
