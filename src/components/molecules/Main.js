@@ -16,7 +16,7 @@ const H = styled.div`
 `;
 const Link = styled.div`
   color: #ffffff;
-  display: "flex";
+  text-align: center;
 `;
 
 function Main() {
