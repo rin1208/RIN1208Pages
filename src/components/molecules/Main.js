@@ -6,20 +6,29 @@ import Grid from "@material-ui/core/Grid";
 import styled from "@emotion/styled";
 
 const Hoge = styled.div`
+  text-align: center;
   height: 60vh;
   background-color: #87cefa;
 `;
-const H = styled.h1`
-  text-align: center;
+const H = styled.div`
   color: #ffffff;
-  line-height: 50vh;
+  padding-top: 20vh;
+`;
+const Link = styled.div`
+  color: #ffffff;
+  display: "flex";
 `;
 
 function Main() {
   return (
     <div>
       <Hoge>
-        <H>Welcome to RIN1208's site </H>
+        <H>
+          <h1>Welcome to RIN1208's site</h1>
+        </H>
+        <Link>
+          <p>Home</p>
+        </Link>
       </Hoge>
     </div>
   );

@@ -20,11 +20,10 @@ function Profile() {
             <h1>PROFILE</h1>
           </Grid>
           <Grid item xs={6}>
+            <h3>自己紹介</h3>
             <ul>
               <li class="tab">Name: RIN1208 (Backend Engineer)</li>
-
               <li class="tab">Date of birth: August , 23 , 1999</li>
-
               <li class="tab">My location: Japan, Tokyo</li>
             </ul>
           </Grid>
