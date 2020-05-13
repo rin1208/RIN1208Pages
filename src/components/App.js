@@ -1,25 +1,20 @@
 import React from "react";
 
 import Profile from "./molecules/Profile";
+import Main from "./molecules/Main";
 import styled from "@emotion/styled";
 import { AppBar, Toolbar, Typography, TextField } from "@material-ui/core";
 
-const Hoge = styled.div({
-  display: "flex",
-  margin: 20,
-});
+const Hoge = styled.div`
+  height: 60%;
+`;
 
 function App() {
   return (
     <React.Fragment>
-      <AppBar position="static" aria-label="Global Navi">
-        <Toolbar>
-          <Hoge>
-            <Typography variant="subtitle1">RIN1208</Typography>
-          </Hoge>
-        </Toolbar>
-      </AppBar>
-
+      <Hoge>
+        <Main />
+      </Hoge>
       <Profile />
     </React.Fragment>
   );
