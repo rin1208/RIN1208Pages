@@ -19,6 +19,13 @@ const Link = styled.div`
   text-align: center;
 `;
 
+const Line = styled.hr`
+  color: #ffffff;
+  height: 3px;
+  background-color: #ffffff;
+  border: none;
+`;
+
 function Main() {
   return (
     <div>
@@ -26,6 +33,8 @@ function Main() {
         <H>
           <h1>Welcome to RIN1208's site</h1>
         </H>
+        <Line />
+
         <Link>
           <p>Home</p>
         </Link>
