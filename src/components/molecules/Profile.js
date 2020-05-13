@@ -14,33 +14,22 @@ const Hoge = styled.div`
 function Profile() {
   return (
     <div>
-      <Grid container item xs={12} spacing={2}>
-        <Grid item xs={6}>
-          <Hoge>
-            <h1>RIN1208</h1>
-          </Hoge>
+      <Hoge>
+        <Grid container item xs={12} spacing={2}>
+          <Grid item xs={6}>
+            <h1>PROFILE</h1>
+          </Grid>
+          <Grid item xs={6}>
+            <ul>
+              <li class="tab">Name: RIN1208 (Backend Engineer)</li>
+
+              <li class="tab">Date of birth: August , 23 , 1999</li>
+
+              <li class="tab">My location: Japan, Tokyo</li>
+            </ul>
+          </Grid>
         </Grid>
-        <Grid item xs={6}>
-          <Hoge>
-            <ul>
-              <li class="tab">Name:</li>
-              <p class="coment">RIN1208 (Backend Engineer)</p>
-            </ul>
-            <ul>
-              <li class="tab">Date of birth:</li>
-              <p class="coment">August , 23 , 1999</p>
-            </ul>
-            <ul>
-              <li class="tab">My location:</li>
-              <p class="coment">Japan, Tokyo</p>
-            </ul>
-            <ul>
-              <li class="tab">My Hobby:</li>
-              <p class="coment">Anime , Game, Comic market</p>
-            </ul>
-          </Hoge>
-        </Grid>
-      </Grid>
+      </Hoge>
     </div>
   );
 }

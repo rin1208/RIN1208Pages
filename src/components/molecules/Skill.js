@@ -8,12 +8,11 @@ import styled from "@emotion/styled";
 const Hoge = styled.div`
   text-align: center;
   color: #ffffff;
-  height: 60vh;
+  height: 100%;
   background-color: #87cefa;
-  display: table-cell;
 `;
 
-function Main() {
+function Skill() {
   return (
     <div>
       <Hoge>
@@ -23,4 +22,4 @@ function Main() {
   );
 }
 
-export default Main;
+export default Skill;
