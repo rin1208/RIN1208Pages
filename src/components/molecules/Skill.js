@@ -86,7 +86,7 @@ function Skill() {
   ];
   var list = front.map(function(item) {
     return (
-      <Grid item xs={6}>
+      <Grid item xs={3}>
         <Huga>
           <h3>{item.name}</h3>
           <p>{item.star}</p>
