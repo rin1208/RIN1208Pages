@@ -24,47 +24,47 @@ const Star = styled.div`
 function Skill() {
   var front = [
     {
-      name: "Go : ",
+      name: "Go ",
       star: "October, 2018 ~",
     },
     {
-      name: "Python : ",
+      name: "Python  ",
       star: "May, 2019  ~",
     },
     {
-      name: "node.js : ",
+      name: "node.js  ",
       star: "April, 2020 ~",
     },
     {
-      name: "Javascrpt :",
+      name: "Javascrpt ",
       star: " June, 2019 ~",
     },
     {
-      name: "Vuejs : ",
+      name: "Vuejs  ",
       star: "June, 2019 ~",
     },
     {
-      name: "Reactjs : ",
+      name: "Reactjs  ",
       star: "June, April, 2020 ~",
     },
     {
-      name: "MySQL : ",
+      name: "MySQL  ",
       star: "April, 2019 ~",
     },
     {
-      name: "Dynamodb :",
+      name: "Dynamodb ",
       star: " October, 2019 ~",
     },
     {
-      name: "S3 :",
+      name: "S3 ",
       star: " June, 2019 ~",
     },
     {
-      name: "Elasticsearch : ",
+      name: "Elasticsearch  ",
       star: "September, 2019 ~",
     },
     {
-      name: "Git :",
+      name: "Git ",
       star: " October, 2018 ~",
     },
     {
@@ -72,15 +72,15 @@ function Skill() {
       star: "April, 2019 ~",
     },
     {
-      name: "Docker-Compose: ",
+      name: "Docker-Compose ",
       star: "April, 2019 ~",
     },
     {
-      name: "Firebase: ",
+      name: "Firebase ",
       star: "December, 2019 ~",
     },
     {
-      name: "Kubernetes: ",
+      name: "Kubernetes ",
       star: "April, 2020 ~",
     },
   ];
