@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.js": "/RIN1208Pages/static/js/main.91febb5c.chunk.js",
-    "main.js.map": "/RIN1208Pages/static/js/main.91febb5c.chunk.js.map",
+    "main.js": "/RIN1208Pages/static/js/main.bcfaccf5.chunk.js",
+    "main.js.map": "/RIN1208Pages/static/js/main.bcfaccf5.chunk.js.map",
     "runtime-main.js": "/RIN1208Pages/static/js/runtime-main.82d3c3bc.js",
     "runtime-main.js.map": "/RIN1208Pages/static/js/runtime-main.82d3c3bc.js.map",
-    "static/js/2.4d84fdc0.chunk.js": "/RIN1208Pages/static/js/2.4d84fdc0.chunk.js",
-    "static/js/2.4d84fdc0.chunk.js.map": "/RIN1208Pages/static/js/2.4d84fdc0.chunk.js.map",
+    "static/js/2.479ed29f.chunk.js": "/RIN1208Pages/static/js/2.479ed29f.chunk.js",
+    "static/js/2.479ed29f.chunk.js.map": "/RIN1208Pages/static/js/2.479ed29f.chunk.js.map",
     "index.html": "/RIN1208Pages/index.html",
-    "precache-manifest.1757f82785970f2ca43aab7d70057603.js": "/RIN1208Pages/precache-manifest.1757f82785970f2ca43aab7d70057603.js",
+    "precache-manifest.76245614c896e668c6a0ad89d116292c.js": "/RIN1208Pages/precache-manifest.76245614c896e668c6a0ad89d116292c.js",
     "service-worker.js": "/RIN1208Pages/service-worker.js",
-    "static/js/2.4d84fdc0.chunk.js.LICENSE.txt": "/RIN1208Pages/static/js/2.4d84fdc0.chunk.js.LICENSE.txt"
+    "static/js/2.479ed29f.chunk.js.LICENSE.txt": "/RIN1208Pages/static/js/2.479ed29f.chunk.js.LICENSE.txt",
+    "static/media/icon_mikisai.png": "/RIN1208Pages/static/media/icon_mikisai.4b40ffa9.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82d3c3bc.js",
-    "static/js/2.4d84fdc0.chunk.js",
-    "static/js/main.91febb5c.chunk.js"
+    "static/js/2.479ed29f.chunk.js",
+    "static/js/main.bcfaccf5.chunk.js"
   ]
 }
