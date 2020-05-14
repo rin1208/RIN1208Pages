@@ -8,7 +8,6 @@ import styled from "@emotion/styled";
 const Hoge = styled.div`
   display: "flex";
   margin: 20;
-  background-color: #f5f5f5;
 `;
 
 function Profile() {

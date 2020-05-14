@@ -37,6 +37,8 @@ function Main() {
 
         <Link>
           <p>Home</p>
+          <p>Skill</p>
+          <p>Carrier</p>
         </Link>
       </Hoge>
     </div>
