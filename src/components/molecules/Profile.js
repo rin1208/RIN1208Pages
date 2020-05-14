@@ -2,7 +2,7 @@ import React from "react";
 
 import Paper from "@material-ui/core/Paper";
 import Grid from "@material-ui/core/Grid";
-
+import Icon from "../images/icon_mikisai.png";
 import styled from "@emotion/styled";
 
 const Hoge = styled.div`
@@ -14,6 +14,11 @@ const Huga = styled.div`
   text-align: center;
 `;
 
+const Img = styled.img`
+  text-align: center;
+  max-width: 250px;
+`;
+
 function Profile() {
   return (
     <div>
@@ -22,8 +27,11 @@ function Profile() {
       </Huga>
       <Hoge>
         <Grid container item xs={12} spacing={2}>
-          <Grid item xs={6}>
-            <h1>PROFILE</h1>
+          <Grid item xs={3}></Grid>
+          <Grid item xs={3}>
+            <Huga>
+              <Img src={Icon} alt="Icon" />
+            </Huga>
           </Grid>
           <Grid item xs={6}>
             <h3>自己紹介</h3>

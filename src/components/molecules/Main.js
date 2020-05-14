@@ -7,12 +7,12 @@ import styled from "@emotion/styled";
 
 const Hoge = styled.div`
   text-align: center;
-  height: 60vh;
+  height: 70vh;
   background-color: #87cefa;
 `;
 const H = styled.div`
   color: #ffffff;
-  padding-top: 20vh;
+  padding-top: 30vh;
 `;
 const Link = styled.div`
   color: #ffffff;
@@ -35,11 +35,11 @@ function Main() {
         </H>
         <Line />
 
-        <Link>
+        {/* <Link>
           <p>Home</p>
           <p>Skill</p>
           <p>Carrier</p>
-        </Link>
+        </Link> */}
       </Hoge>
     </div>
   );
