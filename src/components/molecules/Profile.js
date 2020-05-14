@@ -10,9 +10,16 @@ const Hoge = styled.div`
   margin: 20;
 `;
 
+const Huga = styled.div`
+  text-align: center;
+`;
+
 function Profile() {
   return (
     <div>
+      <Huga>
+        <h1>PROFILE</h1>
+      </Huga>
       <Hoge>
         <Grid container item xs={12} spacing={2}>
           <Grid item xs={6}>

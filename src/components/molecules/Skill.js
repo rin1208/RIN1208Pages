@@ -9,25 +9,88 @@ import Rating from "@material-ui/lab/Rating";
 const Hoge = styled.div`
   display: "flex";
   margin: 20;
+  text-align: center;
+`;
+
+const Huga = styled.div`
+  text-align: center;
+`;
+
+const Star = styled.div`
+  background-color: #87cefa;
+  color: #87cefa;
 `;
 
 function Skill() {
   var front = [
     {
-      hoge: "企業名",
-      huga: "サーバーサイドエンジニアインターン",
-      piyo: 5,
+      name: "Go : ",
+      star: "October, 2018 ~",
+    },
+    {
+      name: "Python : ",
+      star: "May, 2019  ~",
+    },
+    {
+      name: "node.js : ",
+      star: "April, 2020 ~",
+    },
+    {
+      name: "Javascrpt :",
+      star: " June, 2019 ~",
+    },
+    {
+      name: "Vuejs : ",
+      star: "June, 2019 ~",
+    },
+    {
+      name: "Reactjs : ",
+      star: "June, April, 2020 ~",
+    },
+    {
+      name: "MySQL : ",
+      star: "April, 2019 ~",
+    },
+    {
+      name: "Dynamodb :",
+      star: " October, 2019 ~",
+    },
+    {
+      name: "S3 :",
+      star: " June, 2019 ~",
+    },
+    {
+      name: "Elasticsearch : ",
+      star: "September, 2019 ~",
+    },
+    {
+      name: "Git :",
+      star: " October, 2018 ~",
+    },
+    {
+      name: "Docker: ",
+      star: "April, 2019 ~",
+    },
+    {
+      name: "Docker-Compose: ",
+      star: "April, 2019 ~",
+    },
+    {
+      name: "Firebase: ",
+      star: "December, 2019 ~",
+    },
+    {
+      name: "Kubernetes: ",
+      star: "April, 2020 ~",
     },
   ];
   var list = front.map(function(item) {
     return (
       <Grid item xs={6}>
-        <div>
-          <h3>{item.hoge}</h3>
-          <h3>期間</h3>
-          <p>{item.hugahuga}</p>
-          <Rating value={item.piyo} readOnly />
-        </div>
+        <Huga>
+          <h3>{item.name}</h3>
+          <p>{item.star}</p>
+        </Huga>
       </Grid>
     );
   });
@@ -35,7 +98,6 @@ function Skill() {
     <div>
       <Hoge>
         <h1>Skills</h1>
-        <h3>Front</h3>
       </Hoge>
 
       <Hoge>
