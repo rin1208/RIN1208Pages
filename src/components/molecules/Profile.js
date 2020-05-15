@@ -36,9 +36,14 @@ function Profile() {
           <Grid item xs={6}>
             <h3>自己紹介</h3>
             <ul>
-              <li class="tab">Name: RIN1208 (Backend Engineer)</li>
-              <li class="tab">Date of birth: August , 23 , 1999</li>
-              <li class="tab">My location: Japan, Tokyo</li>
+              <li>Name: RIN1208 (Backend Engineer)</li>
+              <li>Date of birth: August , 23 , 1999</li>
+              <li>My location: Japan, Tokyo</li>
+              <li>
+                初めましてRIN1208と申します。
+                <br />
+                主にサーバーサイドをメインに勉強していてGo等によく触れています
+              </li>
             </ul>
           </Grid>
         </Grid>
