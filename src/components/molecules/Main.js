@@ -7,7 +7,7 @@ import styled from "@emotion/styled";
 
 const Hoge = styled.div`
   text-align: center;
-  height: 70vh;
+  height: 90vh;
   background-color: #87cefa;
 `;
 const H = styled.div`

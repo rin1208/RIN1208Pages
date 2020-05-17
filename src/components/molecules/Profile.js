@@ -40,6 +40,7 @@ function Profile() {
           </Grid>
           <Grid item xs={12} md={6}>
             <h3>自己紹介</h3>
+
             <ul>
               <li>Name: RIN1208 (Backend Engineer)</li>
               <li>Date of birth: August , 23 , 1999</li>
@@ -51,9 +52,19 @@ function Profile() {
               </li>
             </ul>
             <Piyo>
-              <Link href="https://twitter.com/sora1212su">Twitter</Link>
-              <Link href="https://github.com/rin1208">GitHub</Link>
-              <Link href="https://qiita.com/rin1208">Qiita</Link>
+              <Huga>
+                <Grid container item xs={12} spacing={2}>
+                  <Grid item md={3} xs={4}>
+                    <Link href="https://twitter.com/sora1212su">Twitter</Link>
+                  </Grid>
+                  <Grid item xs={4} md={3}>
+                    <Link href="https://github.com/rin1208">GitHub</Link>
+                  </Grid>
+                  <Grid item xs={4} md={3}>
+                    <Link href="https://qiita.com/rin1208">Qiita</Link>
+                  </Grid>
+                </Grid>
+              </Huga>
             </Piyo>
           </Grid>
         </Grid>
