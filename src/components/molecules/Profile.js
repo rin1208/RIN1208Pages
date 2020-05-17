@@ -32,13 +32,13 @@ function Profile() {
       </Huga>
       <Hoge>
         <Grid container item xs={12} spacing={2}>
-          <Grid item xs={3} sm={0}></Grid>
-          <Grid item xs={3} sm={12}>
+          <Grid item xs={0} md={3}></Grid>
+          <Grid item xs={12} md={3}>
             <Huga>
               <Img src={Icon} alt="Icon" />
             </Huga>
           </Grid>
-          <Grid item xs={6} sm={12}>
+          <Grid item xs={12} md={6}>
             <h3>自己紹介</h3>
             <ul>
               <li>Name: RIN1208 (Backend Engineer)</li>
