@@ -29,7 +29,7 @@ function App() {
       <Hoge>
         <Career />
       </Hoge>
-      {/* <Deliverable /> */}
+      <Deliverable />
       <Footer />
     </React.Fragment>
   );

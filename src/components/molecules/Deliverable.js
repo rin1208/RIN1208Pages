@@ -30,16 +30,17 @@ function Deliverable() {
     {
       name: "CA Tech Dojo",
       job: "サーバーサイド(Go編)",
-      star: "March, 2020  (2Week)",
+      link: "March, 2020  (2Week)",
     },
   ];
   var list = front.map(function(item) {
     return (
-      <Grid item xs={6}>
+      <Grid item xs={12} md={6}>
         <Huga>
           <h3>{item.name}</h3>
-          <h3>{item.job}</h3>
-          <p>{item.star}</p>
+          <h3>概要</h3>
+          <p>{item.job}</p>
+          <h3 href={item.link}>ソースコード</h3>
         </Huga>
       </Grid>
     );
@@ -57,8 +58,6 @@ function Deliverable() {
           </Grid>
         </Grid>
       </Hoge>
-      <Hoge></Hoge>
-      <Hoge></Hoge>
     </div>
   );
 }

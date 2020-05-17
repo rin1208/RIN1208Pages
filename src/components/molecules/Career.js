@@ -30,7 +30,7 @@ function Career() {
     {
       name: "CA Tech Dojo",
       job: "サーバーサイド(Go編)",
-      star: "March, 2020  (2Week)",
+      star: "March, 2020  (1Week)",
     },
   ];
   var list = front.map(function(item) {
