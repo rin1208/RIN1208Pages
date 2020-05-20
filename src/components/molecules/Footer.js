@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 
 import styled from "@emotion/styled";
 
-const Hoge = styled.div`
+const Main = styled.div`
   text-align: center;
   height: 70vh;
   background-color: #87cefa;
@@ -14,7 +14,7 @@ const H = styled.div`
   color: #ffffff;
   padding-top: 30vh;
 `;
-const Huga = styled.h3`
+const Sub = styled.h3`
   text-align: center;
 `;
 
@@ -30,7 +30,7 @@ function Footer() {
     <div>
       <Line />
 
-      <Huga>©2020 RIN1208</Huga>
+      <Sub>©2020 RIN1208</Sub>
     </div>
   );
 }

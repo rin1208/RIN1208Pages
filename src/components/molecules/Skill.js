@@ -6,109 +6,107 @@ import Typography from "@material-ui/core/Typography";
 import styled from "@emotion/styled";
 import Rating from "@material-ui/lab/Rating";
 
-const Hoge = styled.div`
+const Main = styled.div`
   display: "flex";
   margin: 20;
   text-align: center;
 `;
 
-const Huga = styled.div`
+const Sub = styled.div`
   text-align: center;
 `;
 
-const Star = styled.div`
+const period = styled.div`
   background-color: #87cefa;
   color: #87cefa;
 `;
 
 function Skill() {
-  var front = [
+  var skill = [
     {
       name: "Go ",
-      star: "October, 2018 ~",
+      period: "October, 2018 ~",
     },
     {
       name: "Python  ",
-      star: "May, 2019  ~",
+      period: "May, 2019  ~",
     },
     {
       name: "node.js  ",
-      star: "April, 2020 ~",
+      period: "April, 2020 ~",
     },
     {
       name: "Javascrpt ",
-      star: " June, 2019 ~",
+      period: " June, 2019 ~",
     },
     {
       name: "Vuejs  ",
-      star: "June, 2019 ~",
+      period: "June, 2019 ~",
     },
     {
       name: "Reactjs  ",
-      star: "June, April, 2020 ~",
+      period: "June, April, 2020 ~",
     },
     {
       name: "MySQL  ",
-      star: "April, 2019 ~",
+      period: "April, 2019 ~",
     },
     {
       name: "Dynamodb ",
-      star: " October, 2019 ~",
+      period: " October, 2019 ~",
     },
     {
       name: "S3 ",
-      star: " June, 2019 ~",
+      period: " June, 2019 ~",
     },
     {
       name: "Elasticsearch  ",
-      star: "September, 2019 ~",
+      period: "September, 2019 ~",
     },
     {
       name: "Git ",
-      star: " October, 2018 ~",
+      period: " October, 2018 ~",
     },
     {
-      name: "Docker: ",
-      star: "April, 2019 ~",
+      name: "Docker ",
+      period: "April, 2019 ~",
     },
     {
       name: "Docker-Compose ",
-      star: "April, 2019 ~",
+      period: "April, 2019 ~",
     },
     {
       name: "Firebase ",
-      star: "December, 2019 ~",
+      period: "December, 2019 ~",
     },
     {
       name: "Kubernetes ",
-      star: "April, 2020 ~",
+      period: "April, 2020 ~",
     },
   ];
-  var list = front.map(function(item) {
+  var list = skill.map(function(item) {
     return (
       <Grid item xs={6} md={3}>
-        <Huga>
+        <Sub>
           <h3>{item.name}</h3>
-          <p>{item.star}</p>
-        </Huga>
+          <p>{item.period}</p>
+        </Sub>
       </Grid>
     );
   });
   return (
     <div>
-      <Hoge>
+      <Main>
         <h1>Skills</h1>
-      </Hoge>
+      </Main>
 
-      <Hoge>
+      <Main>
         <Grid container spacing={1}>
           <Grid container item xs={12} spacing={2}>
             {list}
           </Grid>
         </Grid>
-      </Hoge>
-      <Hoge></Hoge>
-      <Hoge></Hoge>
+      </Main>
     </div>
   );
 }

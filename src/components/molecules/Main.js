@@ -5,7 +5,7 @@ import Grid from "@material-ui/core/Grid";
 
 import styled from "@emotion/styled";
 
-const Hoge = styled.div`
+const MainClass = styled.div`
   text-align: center;
   height: 90vh;
   background-color: #87cefa;
@@ -29,7 +29,7 @@ const Line = styled.hr`
 function Main() {
   return (
     <div>
-      <Hoge>
+      <MainClass>
         <H>
           <h1>Welcome to RIN1208's site</h1>
         </H>
@@ -40,7 +40,7 @@ function Main() {
           <p>Skill</p>
           <p>Carrier</p>
         </Link> */}
-      </Hoge>
+      </MainClass>
     </div>
   );
 }

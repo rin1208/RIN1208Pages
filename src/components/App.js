@@ -11,7 +11,7 @@ import Deliverable from "./molecules/Deliverable";
 import styled from "@emotion/styled";
 import { AppBar, Toolbar, Typography, TextField } from "@material-ui/core";
 
-const Hoge = styled.div`
+const MainClass = styled.div`
   display: "flex";
   margin: 150px 0px;
 `;
@@ -20,16 +20,16 @@ function App() {
   return (
     <React.Fragment>
       <Main />
-      <Hoge>
+      <MainClass>
         <Profile />
-      </Hoge>
-      <Hoge>
+      </MainClass>
+      <MainClass>
         <Skill />
-      </Hoge>
-      <Hoge>
+      </MainClass>
+      <MainClass>
         <Career />
-      </Hoge>
-      <Deliverable />
+      </MainClass>
+      {/* <Deliverable /> */}
       <Footer />
     </React.Fragment>
   );

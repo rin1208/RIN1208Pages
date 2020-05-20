@@ -6,12 +6,12 @@ import Icon from "../images/icon_mikisai.png";
 import styled from "@emotion/styled";
 import Link from "@material-ui/core/Link";
 
-const Hoge = styled.div`
+const Main = styled.div`
   display: "flex";
   margin: 20;
 `;
 
-const Huga = styled.div`
+const Sub = styled.div`
   text-align: center;
 `;
 
@@ -27,16 +27,16 @@ const Img = styled.img`
 function Profile() {
   return (
     <div>
-      <Huga>
+      <Sub>
         <h1>PROFILE</h1>
-      </Huga>
-      <Hoge>
+      </Sub>
+      <Main>
         <Grid container item xs={12} spacing={2}>
           <Grid item xs={0} md={3}></Grid>
           <Grid item xs={12} md={3}>
-            <Huga>
+            <Sub>
               <Img src={Icon} alt="Icon" />
-            </Huga>
+            </Sub>
           </Grid>
           <Grid item xs={12} md={6}>
             <h3>自己紹介</h3>
@@ -52,7 +52,7 @@ function Profile() {
               </li>
             </ul>
             <Piyo>
-              <Huga>
+              <Sub>
                 <Grid container item xs={12} spacing={2}>
                   <Grid item md={3} xs={4}>
                     <Link href="https://twitter.com/sora1212su">Twitter</Link>
@@ -64,11 +64,11 @@ function Profile() {
                     <Link href="https://qiita.com/rin1208">Qiita</Link>
                   </Grid>
                 </Grid>
-              </Huga>
+              </Sub>
             </Piyo>
           </Grid>
         </Grid>
-      </Hoge>
+      </Main>
     </div>
   );
 }

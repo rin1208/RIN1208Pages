@@ -5,19 +5,14 @@ import Grid from "@material-ui/core/Grid";
 
 import styled from "@emotion/styled";
 
-const Hoge = styled.div`
+const Main = styled.div`
   display: "flex";
   margin: 20;
   text-align: center;
 `;
 
-const Huga = styled.div`
+const Sub = styled.div`
   text-align: center;
-`;
-
-const Star = styled.div`
-  background-color: #87cefa;
-  color: #87cefa;
 `;
 
 function Career() {
@@ -36,29 +31,29 @@ function Career() {
   var list = front.map(function(item) {
     return (
       <Grid item xs={12} md={6}>
-        <Huga>
+        <Sub>
           <h3>{item.name}</h3>
           <h3>{item.job}</h3>
           <p>{item.star}</p>
-        </Huga>
+        </Sub>
       </Grid>
     );
   });
   return (
     <div>
-      <Hoge>
+      <Main>
         <h1>Intern Career</h1>
-      </Hoge>
+      </Main>
 
-      <Hoge>
+      <Main>
         <Grid container spacing={1}>
           <Grid container item xs={12} spacing={2}>
             {list}
           </Grid>
         </Grid>
-      </Hoge>
-      <Hoge></Hoge>
-      <Hoge></Hoge>
+      </Main>
+      <Main></Main>
+      <Main></Main>
     </div>
   );
 }
