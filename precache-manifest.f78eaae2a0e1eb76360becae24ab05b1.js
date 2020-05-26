@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "dc6562f98604c31ba1b6ec951bc091b9",
+    "revision": "b8f0e08f7a13a0796c7db5d1a92a79c6",
     "url": "/RIN1208Pages/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RIN1208Pages/static/js/2.bf27d1c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "77f43c2033318bbee588",
-    "url": "/RIN1208Pages/static/js/main.a60ca554.chunk.js"
+    "revision": "5c748035e30ca89adfe0",
+    "url": "/RIN1208Pages/static/js/main.5b2edda8.chunk.js"
   },
   {
     "revision": "56d49285c32e1d7504c5",
