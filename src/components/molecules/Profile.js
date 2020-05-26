@@ -55,7 +55,7 @@ function Profile() {
               <Sub>
                 <Grid container item xs={12} spacing={2}>
                   <Grid item md={3} xs={4}>
-                    <Link href="https://twitter.com/sora1212su">Twitter</Link>
+                    <Link href="https://twitter.com/rin1208_sugi">Twitter</Link>
                   </Grid>
                   <Grid item xs={4} md={3}>
                     <Link href="https://github.com/rin1208">GitHub</Link>
