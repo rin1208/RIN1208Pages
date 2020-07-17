@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b8f0e08f7a13a0796c7db5d1a92a79c6",
+    "revision": "624f38cca0f131b82e444bff9d8bfa0a",
     "url": "/RIN1208Pages/index.html"
   },
   {
@@ -12,15 +12,15 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/RIN1208Pages/static/js/2.bf27d1c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5c748035e30ca89adfe0",
-    "url": "/RIN1208Pages/static/js/main.5b2edda8.chunk.js"
+    "revision": "1a3b94f8426fa40257d0",
+    "url": "/RIN1208Pages/static/js/main.64e78630.chunk.js"
   },
   {
     "revision": "56d49285c32e1d7504c5",
     "url": "/RIN1208Pages/static/js/runtime-main.82d3c3bc.js"
   },
   {
-    "revision": "4b40ffa94e74a92a31cc8d390c3ae323",
-    "url": "/RIN1208Pages/static/media/icon_mikisai.4b40ffa9.png"
+    "revision": "8be19bf6287af9f079a57f45bede860e",
+    "url": "/RIN1208Pages/static/media/icon_mikisai.8be19bf6.png"
   }
 ]);

@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.js": "/RIN1208Pages/static/js/main.5b2edda8.chunk.js",
-    "main.js.map": "/RIN1208Pages/static/js/main.5b2edda8.chunk.js.map",
+    "main.js": "/RIN1208Pages/static/js/main.64e78630.chunk.js",
+    "main.js.map": "/RIN1208Pages/static/js/main.64e78630.chunk.js.map",
     "runtime-main.js": "/RIN1208Pages/static/js/runtime-main.82d3c3bc.js",
     "runtime-main.js.map": "/RIN1208Pages/static/js/runtime-main.82d3c3bc.js.map",
     "static/js/2.bf27d1c6.chunk.js": "/RIN1208Pages/static/js/2.bf27d1c6.chunk.js",
     "static/js/2.bf27d1c6.chunk.js.map": "/RIN1208Pages/static/js/2.bf27d1c6.chunk.js.map",
     "index.html": "/RIN1208Pages/index.html",
-    "precache-manifest.f78eaae2a0e1eb76360becae24ab05b1.js": "/RIN1208Pages/precache-manifest.f78eaae2a0e1eb76360becae24ab05b1.js",
+    "precache-manifest.40a747296bd3c77ee1ef7538fb095f5b.js": "/RIN1208Pages/precache-manifest.40a747296bd3c77ee1ef7538fb095f5b.js",
     "service-worker.js": "/RIN1208Pages/service-worker.js",
     "static/js/2.bf27d1c6.chunk.js.LICENSE.txt": "/RIN1208Pages/static/js/2.bf27d1c6.chunk.js.LICENSE.txt",
-    "static/media/icon_mikisai.png": "/RIN1208Pages/static/media/icon_mikisai.4b40ffa9.png"
+    "static/media/icon_mikisai.png": "/RIN1208Pages/static/media/icon_mikisai.8be19bf6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.82d3c3bc.js",
     "static/js/2.bf27d1c6.chunk.js",
-    "static/js/main.5b2edda8.chunk.js"
+    "static/js/main.64e78630.chunk.js"
   ]
 }
