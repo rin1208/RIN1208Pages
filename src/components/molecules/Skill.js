@@ -84,7 +84,7 @@ function Skill() {
       period: "April, 2020 ~",
     },
   ];
-  var list = skill.map(function(item) {
+  var list = skill.map(function (item) {
     return (
       <Grid item xs={6} md={3}>
         <Sub>
@@ -97,7 +97,7 @@ function Skill() {
   return (
     <div>
       <Main>
-        <h1>Skills</h1>
+        <h1>Studying</h1>
       </Main>
 
       <Main>
