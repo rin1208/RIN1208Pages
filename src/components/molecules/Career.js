@@ -20,7 +20,7 @@ function Career() {
     {
       name: "JX通信社",
       job: "サーバーサイドエンジニアインターン",
-      star: "March, 2019 ~",
+      star: "March, 2019 ~ July, 2020",
     },
     {
       name: "CA Tech Dojo",
@@ -28,7 +28,7 @@ function Career() {
       star: "March, 2020  (1Week)",
     },
   ];
-  var list = front.map(function(item) {
+  var list = front.map(function (item) {
     return (
       <Grid item xs={12} md={6}>
         <Sub>
