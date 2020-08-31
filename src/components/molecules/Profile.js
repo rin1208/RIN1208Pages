@@ -60,9 +60,6 @@ function Profile() {
                   <Grid item xs={4} md={3}>
                     <Link href="https://github.com/rin1208">GitHub</Link>
                   </Grid>
-                  <Grid item xs={4} md={3}>
-                    <Link href="https://rin1208-blog.netlify.app/">Blog</Link>
-                  </Grid>
                 </Grid>
               </Sub>
             </Piyo>
