@@ -23,6 +23,11 @@ function Career() {
       star: "March, 2019 ~ July, 2020",
     },
     {
+      name: "株式会社Finatext",
+      job: "サーバーサイドエンジニアインターン",
+      star: "August, 2020 ~",
+    },
+    {
       name: "CA Tech Dojo",
       job: "サーバーサイド(Go編)",
       star: "March, 2020  (1Week)",

@@ -45,7 +45,7 @@ function Skill() {
     },
     {
       name: "Reactjs  ",
-      period: "June, April, 2020 ~",
+      period: "April, 2020 ~",
     },
     {
       name: "MySQL  ",
