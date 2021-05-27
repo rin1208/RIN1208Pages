@@ -54,11 +54,14 @@ function Profile() {
             <Piyo>
               <Sub>
                 <Grid container item xs={12} spacing={2}>
-                  <Grid item md={6} xs={6}>
+                  <Grid item md={4} xs={4}>
                     <Link href="https://twitter.com/rin1208_sugi">Twitter</Link>
                   </Grid>
-                  <Grid item xs={6} md={6}>
+                  <Grid item xs={4} md={4}>
                     <Link href="https://github.com/rin1208">GitHub</Link>
+                  </Grid>
+                  <Grid item xs={4} md={4}>
+                    <Link href="https://qiita.com/rin1208">Qiita</Link>
                   </Grid>
                 </Grid>
               </Sub>
